@@ -18,14 +18,6 @@ namespace MDIAPP
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-        private static void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("내용");
-            DialogResult result;
-            do
-            {
-                result = MessageBox.Show("내용", "제목", MessageBoxButtons.RetryCancel, MessageBoxIcon.);
-            }while (result == DialogResult.Retry);
-        }
+        
     }
 }
